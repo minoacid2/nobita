@@ -147,6 +147,7 @@ h5 {
 .button-container {
     display: flex;
     margin: 5%;
+    margin-bottom: 40%;
     
     
 }
@@ -155,7 +156,7 @@ h5 {
     margin-right: 40% ;
     margin-left: 10%;
     background-color: #3b71ca;
-    border-radius: 12px;
+    border-radius: 10px;
     width: 6rem;
     height: 3rem;
 }
@@ -167,7 +168,7 @@ h5 {
     
     margin-right:10%;
     background-color:#3b71ca;
-    border-radius: 12px;
+    border-radius: 10px;
     width: 6rem;
     height: 3rem;
     
