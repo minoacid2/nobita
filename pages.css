@@ -1,0 +1,202 @@
+ 
+  /* Your CSS styles here */
+
+/* Relate with Pages*/
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #bbe9ec;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: #615b5b;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    animation: slideDown 1s ease-in-out;
+}
+/* Rest of your CSS styles */
+@keyframes slideDown {
+    0% {
+        transform: translateY(-100%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+/*Fade In Animation for paragraph*/
+ 
+.fade-in {
+    opacity: 0;
+    animation: fadeIn 3s ease forwards;
+}
+ @keyframes fadeIn {
+    to {
+        opacity: 1;
+    }
+ }
+
+
+
+
+
+
+/* Default font size and display */
+body {
+    font-size: 16px;
+    display: block;
+}
+
+
+
+
+/* Extra small devices (phones) */
+@media (max-width: 575.98px) {
+    body {
+        font-size: 14px;
+    }
+}
+
+/* Small devices (tablets) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    body {
+        font-size: 16px;
+        display: flex; /* Example change in display property */
+        flex-direction: column; /* Additional display property value */
+    }
+}
+
+/* Medium devices (small laptops) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    body {
+        font-size: 18px;
+    }
+}
+
+/* Large devices (desktops) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    body {
+        font-size: 20px;
+    }
+}
+
+/* Extra large devices (large desktops) */
+
+@media (min-width: 1200px) {
+    body {
+        font-size: 22px;
+    }
+}
+
+/* Paragraph*/
+     
+.fade-in {
+    padding:30px;
+    font-size: 18px;
+    line-height: 1.9rem;
+}
+.copyright {
+    padding: 15px;
+}
+
+
+h1 {
+    display: flex;
+    padding: 40px;
+}
+/* This code for page one
+h2 {
+    display: flex;
+    font-size: 20px;
+    padding: 20px;
+}       */
+
+h5 {
+    display: flex;
+    padding:30px;
+    line-height: 1em;
+}
+
+.page2{
+    margin: 2em;
+    
+}
+.page3{
+    margin: 2em;
+    
+}
+.link {
+    color :rgb(38, 163, 235);
+}
+
+/*footer button*/
+/*
+.footer-button {
+    align:flex;
+    margin-right: 30%;
+    margin-left: 70%;
+    
+    
+}       */
+
+.button-container {
+    display: flex;
+    margin: 5%;
+    
+    
+}
+
+.previous-page {
+    margin-right: 40% ;
+    margin-left: 10%;
+    background-color: #3b71ca;
+    border-radius: 12px;
+    width: 6rem;
+    height: 3rem;
+}
+.previous-link {
+    color:white;
+}
+
+.next-button{
+    
+    margin-right:10%;
+    background-color:#3b71ca;
+    border-radius: 12px;
+    width: 6rem;
+    height: 3rem;
+    
+}
+.nextpage{
+    color:white;
+    
+}
+
+.active {
+    display: inline;
+}
+
+/*Dropdown Menu*/
+
+.dropdown {
+    display: flex;
+    margin-top: 2rem;
+    padding-left: 70%;
+    border-radius: 9px;
+    width: 6rem;
+    height: 3rem;
+    
+}
+.dropdown-item {
+    border-color: black;
+    
+}
+
+h6 {
+    padding: 20px;
+}
